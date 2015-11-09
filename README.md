@@ -13,7 +13,7 @@ Having the implementation not rely on any library imports allows for bypassing a
 In the main.c file there are 3 examples for successfully calling NtCreateUserProcess with the very minimum of information supplied.
 forkProcess() shows how to fork, createStandardProcess shows how to launch an arbitrary (native) non-protected process, and createProtectedProcess takes both a PsProtectedSignerXxx as well as a PsProtectedTypeXxx value and attempts to create a protected process with the specified protection options. Note that in all examples the process is created suspended.
 
-The three examples do not rely on any imports but NtCreateUserProcess and NtTerminateProcess. Both of them are pure system service calls and thus can be described with solely a NT syscall number. They are merged in a single example entirely implemented in main().
+The three examples do not rely on any imports but NtCreateUserProcess and NtTerminateProcess. Both of them are pure system service calls and thus can be described with solely a NT syscall number. The examples are merged in a single example entirely implemented in main().
 Function of combined example is as follows:
 - If the executable is started it first forks itself and exits.
 - Then the clone senses that it has been forked and does not further attempt to fork itself but continues execution.
