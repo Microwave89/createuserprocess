@@ -7,6 +7,7 @@ Whereas it was necessary to perform four system calls (NtOpenFile, NtCreateSecti
 In order to launch a new process there is only a single system service to be called, that is, "NtCreateUserProcess".
 Consequently, the complexity of NtCreateUserProcess is somewhat greater than the one of for example NtCreateProcessEx.
 I already managed to make NtCreateUserProcess working back in spring 2015. However, I did not properly note the parameters and flags (and its meanings) used and, what is most important, the former implementation relied upon calling two apparently crucial RtlXxx calls (RtlCreateProcessParameters(Ex), RtlNormalizeProcessParameters).
+
 Having the implementation not rely on any RtlXxx calls allows for bypassing any usermode hooks by leveraging the technique used in the syscalltest PoC.
 
 In the main.c file there are 3 examples for successfully calling NtCreateUserProcess with the very minimum of information supplied.
