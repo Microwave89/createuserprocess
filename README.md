@@ -1,5 +1,6 @@
 # createuserprocess
 Three Examples of Directly Using Vista's NtCreateUserProcess
+
 NOTE: Protected Process creation applies only to Windows 8.1+!
 
 Whereas it was necessary to perform four system calls (NtOpenFile, NtCreateSection, NtCreateProcess(Ex), NtCreateThread(Ex)) in order to create a new ready to run usermode process in old XP days, much of the process creation internals has been moved to the Windows kernel in Vista+.
