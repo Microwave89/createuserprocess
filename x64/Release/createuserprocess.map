@@ -1,0 +1,63 @@
+ createuserprocess
+
+ Timestamp is 564017e0 (Mon Nov  9 04:49:52 2015)
+
+ Preferred load address is 0000000140000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000405H .text$mn                CODE
+ 0002:00000000 00000018H .idata$5                DATA
+ 0002:00000020 000000b4H .rdata                  DATA
+ 0002:000000d4 00000174H .rdata$zzzdbg           DATA
+ 0002:00000248 00000038H .xdata                  DATA
+ 0002:00000280 00000000H .edata                  DATA
+ 0002:00000280 00000014H .idata$2                DATA
+ 0002:00000294 00000014H .idata$3                DATA
+ 0002:000002a8 00000018H .idata$4                DATA
+ 0002:000002c0 00000036H .idata$6                DATA
+ 0003:00000000 0000002aH .data                   DATA
+ 0004:00000000 00000048H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0001:00000000       RtlSecureZeroMemory        0000000140001000 f i main.obj
+ 0001:0000001c       dispError                  000000014000101c f   main.obj
+ 0001:0000004c       createStandardProcess      000000014000104c f   main.obj
+ 0001:00000168       createProtectedProcess     0000000140001168 f   main.obj
+ 0001:000002c0       forkProcess                00000001400012c0 f   main.obj
+ 0001:00000328       mymain                     0000000140001328 f   main.obj
+ 0001:000003d0       syscallStub                00000001400013d0 f   auxfuncs.obj
+ 0001:000003ec       myTerminate                00000001400013ec f   auxfuncs.obj
+ 0001:000003ee       mymemcmp                   00000001400013ee f   auxfuncs.obj
+ 0002:00000000       __imp_NtTerminateProcess   0000000140002000     myntdll:ntdll.dll
+ 0002:00000008       __imp_NtCreateUserProcess  0000000140002008     myntdll:ntdll.dll
+ 0002:00000010       \177ntdll_NULL_THUNK_DATA  0000000140002010     myntdll:ntdll.dll
+ 0002:00000020       ??_C@_1EI@IKJALEIL@?$AA?2?$AA?$DP?$AA?$DP?$AA?2?$AAC?$AA?3?$AA?2?$AAW?$AAi?$AAn?$AAd?$AAo?$AAw?$AAs?$AA?2?$AAS?$AAy?$AAs?$AAt?$AAe?$AAm?$AA3?$AA2?$AA?2?$AAs?$AAv?$AAc?$AAh?$AAo?$AAs?$AAt?$AA?4@ 0000000140002020     main.obj
+ 0002:00000070       __xmm@000000000000000000000051003d0059 0000000140002070     main.obj
+ 0002:00000280       __IMPORT_DESCRIPTOR_ntdll  0000000140002280     myntdll:ntdll.dll
+ 0002:00000294       __NULL_IMPORT_DESCRIPTOR   0000000140002294     myntdll:ntdll.dll
+
+ entry point at        0001:00000328
+
+ Static symbols
+
+ 0000:ffffb000       .debug$S                   0000000140000000     myntdll:ntdll.dll
+ 0000:ffffb000       .debug$S                   0000000140000000     myntdll:ntdll.dll
+ 0001:000003d0       $$000000                   00000001400013d0     auxfuncs.obj
+ 0002:00000248       $unwind$RtlSecureZeroMemory 0000000140002248     main.obj
+ 0002:00000250       $unwind$dispError          0000000140002250     main.obj
+ 0002:00000258       $unwind$createStandardProcess 0000000140002258     main.obj
+ 0002:00000264       $unwind$createProtectedProcess 0000000140002264     main.obj
+ 0002:00000270       $unwind$forkProcess        0000000140002270     main.obj
+ 0002:00000278       $unwind$mymain             0000000140002278     main.obj
+ 0002:000002ec       .idata$6                   00000001400022ec     myntdll:ntdll.dll
+ 0003:00000000       ?szOutputKeyPath@?1??myWPrintf@@9@9 0000000140003000     main.obj
+ 0004:00000000       $pdata$RtlSecureZeroMemory 0000000140004000     main.obj
+ 0004:0000000c       $pdata$dispError           000000014000400c     main.obj
+ 0004:00000018       $pdata$createStandardProcess 0000000140004018     main.obj
+ 0004:00000024       $pdata$createProtectedProcess 0000000140004024     main.obj
+ 0004:00000030       $pdata$forkProcess         0000000140004030     main.obj
+ 0004:0000003c       $pdata$mymain              000000014000403c     main.obj

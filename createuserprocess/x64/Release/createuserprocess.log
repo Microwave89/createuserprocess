@@ -1,0 +1,50 @@
+﻿Build started 09.11.2015 04:49:48.
+     1>Project "C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\createuserprocess\createuserprocess.vcxproj" on node 2 (Rebuild target(s)).
+     1>_MASM:
+         Assembling auxfuncs.asm...
+         cmd.exe /C "C:\Users\MicrowaveStd\AppData\Local\Temp\tmp86a23bcdeaf2432d90fe690c5fe4eee2.cmd"
+         ml64.exe /c /nologo /Zf /Zi /Fo"x64\Release\auxfuncs.obj" /W3 /errorReport:prompt  /Taauxfuncs.asm
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W4 /WX- /O1 /Ob0 /Oi /Os /Oy /GL /D _UNICODE /D UNICODE /D _WIN64 /D _AMD64_ /D AMD64 /D _UNICODE /D UNICODE /Gm- /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gz /TC /Zl /errorReport:prompt main.c
+         main.c
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(26): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(27): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(28): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(29): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(30): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(76): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(107): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(108): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(109): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(110): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(135): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(136): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(137): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(138): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(139): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(140): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(141): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(142): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(143): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(167): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(168): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(169): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(170): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(171): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(172): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(173): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(174): warning C4214: nonstandard extension used: bit field types other than int
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(175): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(176): warning C4201: nonstandard extension used: nameless struct/union
+     1>c:\users\microwavestd\documents\visual studio 2015\projects\um\createuserprocess\createuserprocess\nttypes.h(187): warning C4201: nonstandard extension used: nameless struct/union
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\x64\Release\createuserprocess.exe" /VERSION:"6.1" /INCREMENTAL:NO /NOLOGO "C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\createuserprocess\Libraries\myntdll.bin" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\x64\Release\createuserprocess.pdb" /MAP /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"mymain" /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\x64\Release\createuserprocess.lib" /MACHINE:X64 /SAFESEH:NO x64\Release\main.obj
+         x64\Release\auxfuncs.obj
+         Generating code
+         Finished generating code
+         createuserprocess.vcxproj -> C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\x64\Release\createuserprocess.exe
+     1>Done Building Project "C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\createuserprocess\createuserprocess\createuserprocess.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.70
