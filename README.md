@@ -13,11 +13,12 @@ Having the implementation not rely on any library imports allows for bypassing a
 In the main.c file there are 3 examples for successfully calling NtCreateUserProcess with the very minimum of information supplied.
 forkProcess() shows how to fork, createStandardProcess shows how to launch an arbitrary (native) non-protected process, and createProtectedProcess takes both a PsProtectedSignerXxx as well as a PsProtectedTypeXxx value and attempts to create a protected process with the specified protection options. Note that in all examples the process is created suspended.
 
-The three examples do not rely on any imports but NtCreateUserProcess and NtTerminateProcess. Both of them are pure system service calls and thus can be described with solely a NT syscall number.
-- If executable is started it first forks itself and exits.
+The three examples do not rely on any imports but NtCreateUserProcess and NtTerminateProcess. Both of them are pure system service calls and thus can be described with solely a NT syscall number. They are merged in a single example entirely implemented in main().
+Function of combined example is as follows:
+- If the executable is started it first forks itself and exits.
 - Then the clone senses that it has been forked and does not further attempt to fork itself but continues execution.
 - The forked process now attempts to create a protected process "svchost.exe".
 - Then it creates a nonprotected "svchost.exe" and terminates itself.
 
-Since there is missing almost the entire Windows subsystem most program won't run longer than 0.1 ms before they will crash or simply exit. "NtCreateUserProcess" is to be used in conjunction with native processes only.
+Since there is missing almost the entire Windows subsystem most program won't run longer than 0.1 ms before they will crash or simply exit. "NtCreateUserProcess" is meant to be used in conjunction with native processes only.
 You can make most of it if you choose a process which does not force itself to run protected (not like services.exe or csrss.exe). Then you can overwrite the ntdll!LdrInitializeThunk function with your shellcode (ntdll.dll is always mapped into any process unlike you unmap it!) which ideally does not rely on anything but... raw system calls :) 
